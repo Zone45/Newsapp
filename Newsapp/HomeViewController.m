@@ -1,18 +1,20 @@
 //
-//  ViewController.m
+//  HomeViewController.m
 //  Newsapp
 //
 //  Created by 1 on 14/5/14.
 //  Copyright (c) 2014 1. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "HomeViewController.h"
 
-@interface ViewController ()
+@interface HomeViewController ()
 
 @end
 
-@implementation ViewController
+@implementation HomeViewController
+
+
 
 - (void)viewDidLoad
 {
@@ -28,11 +30,12 @@
     // Dispose of any resources that can be recreated.
 }
 
-
-
 - (UIStatusBarStyle) preferredStatusBarStyle
 {
     return UIStatusBarStyleLightContent;
 }
+
+- (IBAction)unwindFromView:(UIStoryboardSegue *)segue {}
+
 
 @end

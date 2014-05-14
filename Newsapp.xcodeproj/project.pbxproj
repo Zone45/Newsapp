@@ -21,6 +21,7 @@
 		B5AA3A3519231BDD00C4B88E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5AA3A1719231BDD00C4B88E /* UIKit.framework */; };
 		B5AA3A3D19231BDD00C4B88E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B5AA3A3B19231BDD00C4B88E /* InfoPlist.strings */; };
 		B5AA3A3F19231BDD00C4B88E /* NewsappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5AA3A3E19231BDD00C4B88E /* NewsappTests.m */; };
+		B5AA3A4A1923406C00C4B88E /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5AA3A491923406C00C4B88E /* HomeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		B5AA3A3A19231BDD00C4B88E /* NewsappTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NewsappTests-Info.plist"; sourceTree = "<group>"; };
 		B5AA3A3C19231BDD00C4B88E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B5AA3A3E19231BDD00C4B88E /* NewsappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsappTests.m; sourceTree = "<group>"; };
+		B5AA3A481923406C00C4B88E /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		B5AA3A491923406C00C4B88E /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				B5AA3A2219231BDD00C4B88E /* AppDelegate.h */,
 				B5AA3A2319231BDD00C4B88E /* AppDelegate.m */,
 				B5AA3A2519231BDD00C4B88E /* Main.storyboard */,
+				B5AA3A481923406C00C4B88E /* HomeViewController.h */,
+				B5AA3A491923406C00C4B88E /* HomeViewController.m */,
 				B5AA3A2819231BDD00C4B88E /* ViewController.h */,
 				B5AA3A2919231BDD00C4B88E /* ViewController.m */,
 				B5AA3A2B19231BDD00C4B88E /* Images.xcassets */,
@@ -252,6 +257,7 @@
 				B5AA3A2A19231BDD00C4B88E /* ViewController.m in Sources */,
 				B5AA3A2419231BDD00C4B88E /* AppDelegate.m in Sources */,
 				B5AA3A2019231BDD00C4B88E /* main.m in Sources */,
+				B5AA3A4A1923406C00C4B88E /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +462,7 @@
 				B5AA3A4419231BDD00C4B88E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B5AA3A4519231BDD00C4B88E /* Build configuration list for PBXNativeTarget "NewsappTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +471,7 @@
 				B5AA3A4719231BDD00C4B88E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
